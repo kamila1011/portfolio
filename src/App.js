@@ -3,6 +3,13 @@ import React from 'react';
 export default function App() {
   const workExperience = [
     {
+      title: "Laboratory Technician",
+      company: "Bureau Veritas",
+      duration: "August 2025 - December 2025",
+      location: "Mississauga, Ontario, Canada",
+      description: ["Perform routine inspection and preparation of incoming samples and assign appropriate labels per SOP and quality requirements.","Execute sampling activities, verifying material identity and documenting results within LIMS.","Maintain a clean and compliant work area through regular disinfection, waste handling, and adherence to laboratory housekeeping requirements.","Support quality system activities including equipment checks, documentation updates, and adherence to safety and GxP expectations.","Communicate daily progress and any deviations or non-conformances to supervisors."],
+    },
+    {
       title: "Laboratory Analyst 1",
       company: "Bureau Veritas",
       duration: "January 2024 - May 2024",
@@ -12,7 +19,7 @@ export default function App() {
     {
       title: "University Instructor (Chemical Engineering)",
       company: "Adamson University",
-      duration: "Aug 2018 - Dec 2022",
+      duration: "Aug 2018 - December 2022",
       location: "Manila, Philippines",
       description: ["Led laboratory courses, supervising the design and execution of chemical experiments.","Developed instructional materials aligned with safety and academic standards.","Oversaw analytical report writing, record compilation, and interpretation of experimental data."],
     },
