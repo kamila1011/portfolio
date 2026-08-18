@@ -2,12 +2,19 @@ import React from 'react';
 
 export default function App() {
   const workExperience = [
+      {
+      title: "Metrology Laboratory Technician",
+      company: "Alcohol Countermeasure Systems (ACS) Corporation",
+      duration: "April 2026 - Present",
+      location: "Toronto, Ontario, Canada",
+      description: ["Perform calibration and verification per ISO 17025 requirements on a variety of measuring instruments and equipment, ensuring they meet specified accuracy and precision requirements.","Maintain calibration records to ensure compliance with documentation and traceability requirements in accordance with ISO 17025 standards.","Engage in compliance with relevant quality management systems; participate in internal and external audits related to calibration activities.","Support other departments to ensure calibration and test needs are met.","Handle other laboratory-related tasks as directed by management."],
+    },
     {
       title: "Laboratory Technician",
       company: "Bureau Veritas",
       duration: "August 2025 - December 2025",
       location: "Mississauga, Ontario, Canada",
-      description: ["Perform routine inspection and preparation of incoming samples and assign appropriate labels per SOP and quality requirements.","Execute sampling activities, verifying material identity and documenting results within LIMS.","Maintain a clean and compliant work area through regular disinfection, waste handling, and adherence to laboratory housekeeping requirements.","Support quality system activities including equipment checks, documentation updates, and adherence to safety and GxP expectations.","Communicate daily progress and any deviations or non-conformances to supervisors."],
+      description: ["Performed Inorganic Wet Chemistry analyses following established laboratory guidelines and protocols, including sample preparation and equipment setup.","Operated, maintained, and troubleshot laboratory instruments including pH meters, turbidimeters, analytical balances, and pipettes to ensure accuracy of results.","Measured pH in water and soil samples by the Ion Selective Electrode method; analyzed total and residual chlorine by HACH colorimetry and amperometry, and turbidity in water by nephelometry.","Analyzed and interpreted laboratory data and prepared reports using the Laboratory Information Management System (LIMS).","Followed SOPs (Standard Operating Procedures) to ensure accuracy, quality of work, and compliance with Ontario regulations; maintained proper documentation of results in laboratory logbooks.", "Used TAT/LIMS scheduling to organize workflow and ensure sample holding times were met.", "Adhered to strict laboratory safety guidelines, including proper handling, storage, and disposal of chemicals and hazardous waste."],
     },
     {
       title: "Laboratory Analyst 1",
